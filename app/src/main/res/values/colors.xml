@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryPurple">#6C4CF1</color>
+    <color name="primaryBlue">#3B82F6</color>
+
+    <color name="darkText">#151536</color>
+    <color name="secondaryText">#62627A</color>
+
+    <color name="background">#F8F7FF</color>
+    <color name="cardWhite">#FFFFFF</color>
+
+    <color name="lightPurple">#EEE9FF</color>
+    <color name="lightBlue">#E8F1FF</color>
+    <color name="lightGreen">#E4F8EC</color>
+    <color name="lightPink">#FFE8EE</color>
+    <color name="lightYellow">#FFF4D9</color>
+
+    <color name="success">#18A558</color>
+    <color name="danger">#E53935</color>
+    <color name="warning">#F59E0B</color>
+
+</resources>

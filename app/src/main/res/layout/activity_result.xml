@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🎉 Quiz Complete!"
+                    android:textColor="@color/darkText"
+                    android:textSize="29sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Great effort! Here's your performance."
+                    android:textColor="@color/secondaryText"
+                    android:textSize="15sp"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:gravity="center"
+                android:text="🏆"
+                android:textSize="32sp"
+                android:background="@drawable/trophy_circle"/>
+
+        </LinearLayout>
+
+
+        <!-- Score Card -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="22dp"
+            android:background="@drawable/score_card"
+            android:elevation="4dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Score"
+                android:textColor="#14532D"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/scoreText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Score: 0/8"
+                android:textColor="@color/success"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Topic Performance -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📊  Topic Performance"
+            android:textColor="@color/darkText"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="14dp"/>
+
+
+        <!-- Topic 1 -->
+
+        <TextView
+            android:id="@+id/algebraText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Algebra"
+            android:textColor="@color/darkText"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:background="@drawable/topic_result_card"
+            android:layout_marginBottom="10dp"/>
+
+
+        <!-- Topic 2 -->
+
+        <TextView
+            android:id="@+id/calculusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculus"
+            android:textColor="@color/darkText"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:background="@drawable/topic_result_card"
+            android:layout_marginBottom="10dp"/>
+
+
+        <!-- Topic 3 -->
+
+        <TextView
+            android:id="@+id/trigonometryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trigonometry"
+            android:textColor="@color/darkText"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:background="@drawable/topic_result_card"
+            android:layout_marginBottom="10dp"/>
+
+
+        <!-- Topic 4 -->
+
+        <TextView
+            android:id="@+id/geometryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Geometry"
+            android:textColor="@color/darkText"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:background="@drawable/topic_result_card"
+            android:layout_marginBottom="22dp"/>
+
+
+        <!-- Recommendation -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@drawable/recommendation_card"
+            android:layout_marginBottom="22dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡  Recommended Practice"
+                android:textColor="@color/darkText"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/recommendationText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keep practicing your weakest topic."
+                android:textColor="@color/secondaryText"
+                android:textSize="15sp"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Back Home -->
+
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="⌂  Back to Home"
+            android:textColor="@color/cardWhite"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:background="@drawable/gradient_button"
+            android:elevation="4dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

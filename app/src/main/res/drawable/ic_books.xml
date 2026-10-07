@@ -1,0 +1,64 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Shadow -->
+
+    <path
+        android:fillColor="#D7D1FF"
+        android:pathData="M12,82 C28,76 66,76 85,82 C67,89 30,89 12,82Z"/>
+
+    <!-- Bottom book -->
+
+    <path
+        android:fillColor="#5D36E8"
+        android:pathData="M15,58 L70,58 L80,66 L25,72 L15,66Z"/>
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,56 L72,56 L78,64 L22,68 L18,64Z"/>
+
+    <!-- Orange book -->
+
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M20,45 L76,45 L82,53 L25,59 L20,54Z"/>
+
+    <path
+        android:fillColor="#FFF4E9"
+        android:pathData="M22,43 L75,43 L80,50 L25,55 L22,51Z"/>
+
+    <!-- Purple book -->
+
+    <path
+        android:fillColor="#7047E8"
+        android:pathData="M26,32 L70,32 L77,39 L31,45 L26,40Z"/>
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,30 L69,30 L74,36 L31,41 L28,37Z"/>
+
+    <!-- Graduation cap -->
+
+    <path
+        android:fillColor="#3420B8"
+        android:pathData="M34,20 L62,13 L83,22 L55,30 Z"/>
+
+    <path
+        android:fillColor="#4B31D0"
+        android:pathData="M43,25 L67,20 L67,29 C64,36 47,38 43,29Z"/>
+
+    <!-- Cap tassel -->
+
+    <path
+        android:fillColor="#FFB52E"
+        android:pathData="M81,22 L83,40 L86,40 L84,22Z"/>
+
+    <path
+        android:fillColor="#FFB52E"
+        android:pathData="M81,39 L87,39 L84,45Z"/>
+
+</vector>
